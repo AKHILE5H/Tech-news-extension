@@ -2,7 +2,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
 
-fetch('https://gnews.io/api/v4/search?q=tech%20India&token=b1ebb86551fbb3c79b8a85a617f1227b&lang=en')
+fetch('https://gnews.io/api/v4/search?q=tech%20India&token=(YOUR TOKEN HERE)&lang=en')
     .then(data => data.json())
     .then(newsData => {
 
